@@ -1,0 +1,2 @@
+db: 'aiomysql+mysql://admin:password@localhost:3306/iotmqtt'
+mqtt_server: 'mqtt://test.mosquitto.org/'

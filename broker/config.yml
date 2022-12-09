@@ -1,0 +1,17 @@
+listeners:
+  default:
+    max-connections: 1000
+    type: tcp
+  main-tcp:
+    bind: 0.0.0.0:1883
+  main-ws:
+    bind: 0.0.0.0:8083
+    type: ws
+timeout-disconnect-delay: 2
+auth:
+  plugins:
+    - auth_file
+  allow-anonymous: false
+  password-file: ./secret/passwd_file
+topic-check:
+  enabled: false

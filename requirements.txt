@@ -1,0 +1,6 @@
+pyyaml
+amqtt
+sqlalchemy>=1.4.0
+aiomyql
+uvloop
+passlib
